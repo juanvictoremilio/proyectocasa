@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models import Sum
 
 # Create your models here.
 
@@ -8,10 +9,9 @@ class Material(models.Model):
     proveedor = models.CharField(max_length=120)
     cantidad = models.DecimalField(decimal_places=2, max_digits=8)
 
-
+    
     def __str__(self):
-        return self.concepto
-
+        return self.concepto        
     class Meta:
         
         verbose_name_plural = "Material"   
