@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-e)ftshe@hq5k7=35ms+qlv4!2wyihe=^%&208w*2xz4tq$kgml
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['casa.babisuri.com', 'www.casa.babisuri.com']
 
 
 # Application definition
